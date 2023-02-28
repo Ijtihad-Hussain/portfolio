@@ -1,6 +1,5 @@
 /* Global Styles */
 
-
 .profilecontainer {
   display: flex;
 }
@@ -99,12 +98,16 @@ header {
   animation: slide-down 0.5s ease-in-out;
 }
 
+/* header nav {
+  float: right;
+} */
+
 nav ul {
+  float: right;
   list-style: none;
   display: flex;
-/*   justify-content: space-between; */
-  align-items: right;
-}
+  justify-content: space-between;
+ } 
 
 nav li {
   margin: 0 10px;
