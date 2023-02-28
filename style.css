@@ -1,5 +1,9 @@
 /* Global Styles */
 
+header nav {
+    float: right;
+  }
+
 .profilecontainer {
   display: flex;
 }
